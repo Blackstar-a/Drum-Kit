@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        .navbar{
+            background-color: white;
+            box-shadow: rgb(66, 65, 65);
+        }
+
+        button{
+            height: 50px;
+            width: 100px;
+        }
+
+        .container{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        li{
+            list-style: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <button onclick="menu.hidden^=1">≡</button>
+        <ul id="menu" hidden>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Blog</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
